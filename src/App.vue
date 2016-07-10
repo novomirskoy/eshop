@@ -134,8 +134,6 @@
 import Product from './components/Product.vue';
 import Cart from './components/Cart.vue';
 import ws from './assets/js/ws';
-import CartProduct from './services/Cart.js';
-import LoginModal from './components/LoginModal.vue';
 import {modal, alert} from 'vue-strap';
 import auth from './services/Auth.js';
 
@@ -143,7 +141,6 @@ export default {
     components: {
         Product,
         Cart,
-        LoginModal,
         modal,
         alert
     },
