@@ -1,0 +1,1 @@
+export default WS.connect("ws://localhost:1337")
